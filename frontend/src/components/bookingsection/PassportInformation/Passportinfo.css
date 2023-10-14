@@ -1,0 +1,15 @@
+.PassportInfo-Section{
+    margin-top: 2vh;
+    box-shadow: 10px 10px 10px 10px rgba(193, 87, 87, 0.5);
+    border-radius: 1vh;
+}
+.passport-info-main{
+    margin-left: 2vw;
+}
+.passport-info-main > div >p{
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+}
+.contact-form{
+    padding-bottom: 4vh !important;
+}

@@ -1,0 +1,60 @@
+.flight-company-details{
+    background-color: #ffffff;
+    box-shadow: 10px 10px 10px 10px rgba(193, 87, 87, 0.5);
+    border-radius: 1vh;
+}
+.Airpot-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: brown;
+    padding: 1vh;
+    padding-left: 2vw;
+    color: white;
+    border-radius: 1vh 1vh 0 0; 
+
+}
+.company-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.company-details > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.booking-timing-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.booking-timing-details >div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 8px 0;
+}
+.last-tag-company-details{
+    margin-right: 1vw;
+}
+.plane-details>p{
+    margin-bottom: 2vh;
+}
+
+@media (max-width: 600px) {
+    .company-details > div >p{
+        max-width: 30vw;
+}
+    .plane-details>p{
+        margin-left: 3vw;
+    }
+   }

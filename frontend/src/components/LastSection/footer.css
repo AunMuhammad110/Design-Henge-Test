@@ -1,0 +1,223 @@
+.footer-container{
+    width: 100vw;
+    height: 62vh;
+    position: relative;
+    overflow: hidden;
+}
+.footer-container>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.footer-container> div{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+box-sizing: border-box;
+z-index: 1;
+color:white;
+margin-top: 18vh;
+}
+.temp{
+    background-color: rgb(191, 204, 200);
+}
+.first-grid-container > h3{
+    margin-top: 1.5vh;
+}
+.first-grid-container >div >div{
+    margin-top: 2vh;
+    list-style: none;
+    display: flex;
+}
+.first-grid-container >div >div > p{
+    margin-left: 0.6vw;
+}
+.second-grid-container {
+    padding-left: 6vw !important;
+}
+.second-grid-container > div{
+    display: flex;
+    flex-direction: column;
+    align-items: start !important;
+}
+.second-grid-container > div> h3{
+    margin-top: 9vh;
+    padding-left: -2.5vw !important;
+}
+.second-grid-container >div>ul{
+    margin-top: 2.5vh;
+}
+.second-grid-container >div>ul >li{
+    margin-top: 1.3vh;
+}
+.third-grid-container >div{
+    margin-top: 9vh;
+    padding-left: 2vw;
+}
+.third-grid-container >div>ul{
+    margin-top: 4vh;
+}
+.third-grid-container >div>ul >li{
+    margin-bottom: 1.5vh;
+}
+
+.fourth-grid-container>div{
+    margin-top: 9vh;
+}
+.fourth-grid-container>div > div {
+    margin-top: 1.5vh;
+}
+.fourth-grid-container>div > div > input{
+    padding: 13px;
+    font-size: 16px;
+    padding-left: 1.3vw;
+    border-radius: 25px 0 0 25px;
+}
+.fourth-grid-container>div > div >button{
+    padding: 13px;
+    font-size: 16px;
+    border-radius: 0px 25px 25px 0px;
+    background-color: #ffffff;
+}
+.fourth-grid-container-images{
+    margin-top: 3vh !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.last-section-container{
+    margin-top: 54vh !important;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+    /* padding: 10px; */
+    padding-top: 1.5vh;
+    border-top: 1px solid pink;
+}
+.last-section-copyright-container > p{
+    padding-left: 9vw;
+}
+.last-section-payment-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6vw;
+}
+.last-section-payment-container >p{
+    margin-right: 1vw;
+}
+.last-section-payment-container >img{
+    margin-right: 0.1vw;
+}
+@media (max-width: 600px){
+    .footer-container{
+        height: 156vh;
+    }
+    .last-section-container{
+        margin-top: 146vh !important;
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* justify-content: space-around; */
+        /* padding: 10px; */
+        padding-top: 0vh;
+        border-top: 1px solid pink; 
+    }
+    .last-section-payment-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0vw;
+    }
+    .last-section-payment-container >p{
+        margin-right: 1vw;
+    }
+    .last-section-payment-container >img{
+        margin-right: 0.1vw;
+    }
+    .last-section-copyright-container > p{
+        padding-left: 3vw;
+    }
+    .first-grid-container > img{
+        margin-top: 25vh;
+        padding-left: 2vw;
+    }
+    .first-grid-container > h3{
+        margin-top: 1.5vh;
+        padding-left: 2vw;
+    }
+    .first-grid-container >div >div{
+        margin-top: 2vh;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 2vw;
+
+    }
+    .first-grid-container >div >div > p{
+        margin-left: 2vw;
+        max-width: 70vw;
+    }
+    .second-grid-container {
+        padding-left: 6vw !important;
+    }
+    .second-grid-container > div{
+        display: flex;
+        flex-direction: column;
+        align-items: start !important;
+    }
+    .second-grid-container > div> h3{
+        margin-top: 2vh;
+        padding-left: -2.5vw !important;
+    }
+    .second-grid-container >div>ul{
+        margin-top: 2.5vh;
+        padding-left: 4vw;
+    }
+    .second-grid-container >div>ul >li{
+        margin-top: 1.3vh;
+    }
+    .third-grid-container >div{
+        margin-top: 2vh;
+        padding-left: 2vw;
+    }
+    .third-grid-container >div>ul{
+        margin-top: 4vh;
+        padding-left: 4vw;
+    }
+    .third-grid-container >div>ul >li{
+        margin-bottom: 1.5vh;
+    }
+    .fourth-grid-container>div{
+        margin-top: 2vh;
+        padding-left: 2vw;
+    }
+    .fourth-grid-container>div > div {
+        margin-top: 1.5vh;
+    }
+    .fourth-grid-container>div > div > input{
+        padding: 13px;
+        font-size: 16px;
+        padding-left: 2vw;
+        margin-top: 2vh;
+        width: 62vw;
+        border-radius: 25px 0 0 25px;
+    }
+    .fourth-grid-container>div > div >button{
+        padding: 13px;
+        font-size: 16px;
+        border-radius: 0px 25px 25px 0px;
+        background-color: #ffffff;
+    }
+    .fourth-grid-container-images{
+        margin-top: 3vh !important;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+}

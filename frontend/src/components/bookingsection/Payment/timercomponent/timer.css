@@ -1,0 +1,27 @@
+.timer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    border-top:10px solid brown ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(193, 87, 87, 0.5);
+    margin-top: 4vh;
+}
+.timer-container>div >p{
+    font-size: 24px;
+}
+.timer-container >img{
+    width: 50px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+.timer-container > h2 {
+    color:brown;
+    margin-bottom: 1vh;
+}
+.timer-container > p{
+    font-size: 18px;
+}

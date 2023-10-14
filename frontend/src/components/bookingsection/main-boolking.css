@@ -1,0 +1,129 @@
+.main-container{
+    background-color: #FAF9F6;
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+}
+.main-booking-container{
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+}
+.booking-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.booking-bar > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 10px;
+}
+.suggestion-container{
+    display: flex;
+    flex-direction: row;
+}
+.suggestion-container>p{
+    font-size: 20px;
+}
+.booking-bar > ul > li{
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+
+.second-container > div{
+    padding-left: 2vw !important;
+    padding-right: 2vw;
+    margin-left: 1vw ;
+    margin-right: 1vw;
+    background-color: #f4efef;
+    padding-top: 0.1vw;
+    padding-bottom: 1vw;
+    margin-top: 2.3vw;
+
+}
+.coupon-container{
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px 5px rgba(136, 108, 108, 0.5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1.5vw;
+    margin-top: 1vh;
+    border-radius: 5px;
+}
+
+.submission-container{
+    margin-left: 2vw;
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.submission-container > div >input{
+    transform: scale(1.5);
+    margin-right: 0.6vw;
+}
+.submission-container >div> label{
+    font-size: 18px;
+    margin-right:2vw ;
+}
+.submission-container >button{
+     padding: 6px;
+     width: 10vw;
+     height: 4vh;
+     background: brown;
+     color: white !important;
+     font-size: 18px;
+}
+
+@media (max-width: 600px) {
+    .main-booking-container{
+        padding-right: 1vw;
+        padding-left: 1vw;
+        font-size: 12px;
+    }
+    .booking-bar{
+        display: block;
+        margin-bottom: 2vh !important;
+    }
+    .booking-bar>ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding: 4px;
+        margin-left:-3vw;
+        margin-top: 1vh;
+
+    }
+    .suggestion-container{
+        margin-top: 3vh !important;
+    }
+    .suggestion-container >p{
+        font-size: 16px;
+        margin-left: 2vw;
+    }
+    .coupon-container > a{
+        font-size: 18px !important;
+        margin-left: 2vw;
+
+    }
+    .submission-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .submission-container > div {
+        display: flex;
+        flex-direction: row ;
+    }
+    .submission-container > div >input{
+        margin-left: 1vw;
+    }
+    .submission-container >div> label{
+        margin-left: 2vw;
+    }
+    .submission-container >button{
+        width: 50vw !important;
+        margin-top: 3vh;
+    }
+}

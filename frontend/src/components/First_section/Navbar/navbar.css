@@ -1,0 +1,49 @@
+.logo-image{
+    width: 150px;
+}
+@media (max-width: 600px) {
+    .logo-image {
+      display: none;
+    }
+    .nav-sign{
+      margin-top: 2vh;
+      font-size: 11px !important;
+    }
+    .nav-sign{
+      font-size: 14px;
+    }
+    .login-signup{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 1.5vh !important;
+    
+    }
+    .login-signup>p{
+      margin-left: 0.5vw;
+      margin-right: 0.5vw;
+      display: none;
+    } 
+    
+  }
+.mobile-logo-image{
+    width: 60px !important;
+    margin-left: 5vw;
+}
+.nav-sign{
+  
+  font-size: 18px;
+}
+.login-signup{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3vh;
+
+}
+.login-signup>p{
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+} 

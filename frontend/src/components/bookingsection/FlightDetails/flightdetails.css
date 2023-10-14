@@ -1,0 +1,78 @@
+.flight-details{
+    background-color: #ffffff;
+    box-shadow: 10px 10px 10px 10px rgba(193, 87, 87, 0.5);
+    border-radius: 1vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh  ;
+    padding-bottom: 1vh;
+}
+.Airpot-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: brown;
+    padding: 1vh;
+    padding-left: 2vw;
+    color: white;
+    border-radius: 1vh 1vh 0 0; 
+}
+
+.flight-details-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+     margin-top: 4vh;
+     padding-right: 1vw;
+     padding-left: 1vw;
+}
+.flight-details-bar > ul{
+    list-style: none;
+    display: flex;
+}
+.flight-details-bar > ul >li{
+    margin: 0 1vw;
+    font-size: 20px;
+}
+.flight-timings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-right: 1vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+}
+.flight-timings > div >p{
+    margin-top: 1vh;
+}
+.flight-details-note{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4vw;
+    margin-right: 6vw;
+    margin-top: 2vh;
+    background-color: rgb(185, 152, 152);
+    color:rgb(98, 20, 20);
+    padding: 3px;
+    padding-top: 5px;
+    padding-bottom: 2px !important;
+
+}
+.flight-details-note> p{
+    margin-top: 1px;
+    margin-left: 0.5vw;
+}
+.flight-details-note> div{
+    margin-left: 3vw;
+}
+@media (max-width: 600px) {
+    .flight-details-bar >ul >li{
+        font-size: 16px;
+        margin-right: 3vw;
+    }
+    .flight-details-note{
+        margin-top: 3vh;
+        border-radius: 6px;
+    }
+}
